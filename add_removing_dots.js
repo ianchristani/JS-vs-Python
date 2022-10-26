@@ -13,17 +13,3 @@ function remove_dots(string){
 
 let string = "test";
 console.log(remove_dots(add_dots(string)));
-
-// solucao em python
-/*
-
-def add_dots(string):
-    return ".".join(string)
-
-def remove_dots(string):
-    return "".join(string.split("."))
-
-string = "test"
-print(remove_dots(add_dots(string)))
-
-*/

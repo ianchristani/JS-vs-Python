@@ -11,18 +11,3 @@ function flatten(param){
 };
 
 console.log(flatten([[1, 2], [3, 4]]))
-
-// solucao em python
-/*
-
-def flatten(param):
-    result=[]
-    for lista in param:
-        for element in lista:
-            result.append(element)
-    return result
-    
-    
-print(flatten([[1, 2], [3, 4]]))
-
-*/

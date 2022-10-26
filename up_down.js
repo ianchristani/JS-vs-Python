@@ -10,18 +10,3 @@ function up_down(param){
 
 let param = 5;
 console.log(up_down(param));
-
-
-// solucao em python
-/*
-
-def up_down(param):
-    pdown = param - 1
-    pup = param + 1
-    return (pdown,pup)
-
-param = 5
-print(up_down(param))
-
-
-*/
